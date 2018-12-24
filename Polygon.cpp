@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 #include "Polygon.h"
 using namespace std;
@@ -9,7 +9,7 @@ float *** costs;
 Polygon::Polygon(int n) {
 	N = n;
 	polygon = new Point[n];
-	cout << "Ââåäèòå êîîðäèíàòû âåðøèí ïî ÷àñîâîé ñòðåëêå: " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ Ð²ÐµÑ€ÑˆÐ¸Ð½ Ð¿Ð¾ Ñ‡Ð°ÑÐ¾Ð²Ð¾Ð¹ ÑÑ‚Ñ€ÐµÐ»ÐºÐµ: " << endl;
 
 	for (int i = 0; i < N; i++) {
 		cin >> polygon[i].x >> polygon[i].y;
